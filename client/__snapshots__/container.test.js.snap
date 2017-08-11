@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client/container.js renders container with the provided header and content 1`] = `
+<main>
+  <h1>
+    Test Example
+  </h1>
+  <section>
+    Test Content goes here...
+  </section>
+</main>
+`;
