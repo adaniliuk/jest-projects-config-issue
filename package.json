@@ -4,6 +4,7 @@
   "repository": "git@github.com:adaniliuk/jest-projects-config-issue.git",
   "author": "adaniliuk",
   "scripts": {
+    "test:conf": "jest --coverage",
     "test": "jest --coverage --projects ./client ./server",
     "test:client": "jest --coverage --projects ./client",
     "test:server": "jest --coverage --projects ./server"
@@ -19,7 +20,7 @@
     "babel-preset-react": "^6.24.1",
     "enzyme": "^2.9.1",
     "enzyme-to-json": "^1.5.1",
-    "jest": "^20.0.4",
+    "jest": "test",
     "react-test-renderer": "^15.6.1",
     "regenerator-runtime": "^0.10.5"
   }

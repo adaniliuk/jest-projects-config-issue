@@ -1,8 +1,6 @@
-console.log('@@@ SERVER');
+console.log('@@@ ROOT');
 
 module.exports = {
-  rootDir: '../',
-  testMatch: ['<rootDir>/server/**/?(*.)(test).js?(x)'],
   coverageThreshold: {
     global: {
       statements: 100,
@@ -12,7 +10,11 @@ module.exports = {
     },
   },
   collectCoverageFrom: [
+    "client/**/*.{js,jsx}",
     "server/**/*.{js,jsx}",
+    "!**/jest.config.js",
+    "!**/*.test.{js,jsx}",
     "!**/node_modules/**",
   ],
+  projects: ['./client', './server'],
 };
