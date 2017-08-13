@@ -4,10 +4,7 @@
   "repository": "git@github.com:adaniliuk/jest-projects-config-issue.git",
   "author": "adaniliuk",
   "scripts": {
-    "test:conf": "jest --coverage",
-    "test": "jest --coverage --projects ./client ./server",
-    "test:client": "jest --coverage --projects ./client",
-    "test:server": "jest --coverage --projects ./server"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "prop-types": "^15.5.10",
